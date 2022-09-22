@@ -46,7 +46,9 @@ useEffect(()=>{
 
         </div></>
         :
-        Navigate("/login")
+        useEffect(()=>{
+            Navigate("/login")
+        },[])
     }
     </>
     )
